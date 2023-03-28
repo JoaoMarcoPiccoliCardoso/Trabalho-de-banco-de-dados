@@ -68,13 +68,8 @@ ELSE qtd_estoque - (select SUM(qtd) from tb_pedido_produto where tb_pedido_produ
 END
 
 -- Comando SQL de exclusão de algum registro em uma tabela
---
---
---
---
---
---
 
+DELETE FROM tb_produto WHERE id_produto = 6
 
 
 
