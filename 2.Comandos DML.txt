@@ -56,7 +56,10 @@ insert into tb_pedido_produto (id_pedido, id_produto, qtd) values
 (1, 2, 10),
 (2, 5, 2),
 (3, 2, 1),
+(4, 3, 4),
 (5, 5, 18);
+
+-- Executar os comandos abaixo separadamente!
 
 --Atualiza o valor em estoque dos produtos que foram pedidos
 
@@ -69,7 +72,7 @@ END
 
 -- Comando SQL de exclusão de algum registro em uma tabela
 
-DELETE FROM tb_produto WHERE id_produto = 6
+DELETE FROM tb_produto WHERE id_produto = 6;
 
 
 
